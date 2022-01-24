@@ -1,0 +1,31 @@
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.icon-bars {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+}
+
+.icon-bars a {
+    float: left;
+    text-align: center;
+    width: 20%;
+    padding: 12px 0;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 36px;
+}
+
+.icon-bars a:hover {
+    background-color: #000;
+}
+
+.active {
+    background-color: #04AA6D;
+}
